@@ -1,9 +1,0 @@
-{userId:"u001",event:"1001"}
-{userId:"u001",event:"1001"}
-{userId:"u001",event:"1002"}
-{userId:"u001",event:"1002"}
-{userId:"u001",event:"1002"}
-{userId:"u003",event:"1001"}
-{userId:"u003",event:"1002"}
-{userId:"u003",event:"1002"}
-{userId:"u003",event:"1003"}

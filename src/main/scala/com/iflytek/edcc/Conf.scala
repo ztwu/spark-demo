@@ -6,12 +6,14 @@ package com.iflytek.edcc
 object Conf {
 
   //输入路径
-  val dw_school_org = "hdfs://ns-bj/project/zx_dev/zx_dev/db/dw_school_org/part="
-  val dw_union_multiple_exam_score_dim = "hdfs://ns-bj/user/hive/warehouse/edu_edcc.db/dw_union_multiple_exam_score_dim/pdate="
-  val dw_union_single_exam_score_dim = "hdfs://ns-bj/user/hive/warehouse/edu_edcc.db/dw_union_single_exam_score_dim/pdate="
+  val inputpath1 = "data/project/edu_edcc/ztwu2/temp/mapreduce-data/dws_uc_user_organization";
+  val inputpath2 = "data/project/edu_edcc/ztwu2/temp/mapreduce-data/dws_log_user_active";
+  val inputpath3 = "data/project/edu_edcc/ztwu2/temp/mapreduce-data/dw_school_org";
+
+  //广播文件
+  val cacheFilePath = "data/project/edu_edcc/ztwu2/temp/mapreduce-data/distributecache/data.txt";
 
   //输出主路径
-  var dm_academic_level_development = "/project/edu_edcc/ztwu2/db/dm/dm_academic_level_development/pdate="
-  var dm_academic_setback_index = "/project/edu_edcc/ztwu2/db/dm/dm_academic_setback_index/pdate="
+  val outputpath = "data/project/edu_edcc/ztwu2/temp/mapreduce-result";
 
 }

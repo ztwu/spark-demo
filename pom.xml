@@ -15,7 +15,8 @@
         <scala.version>2.10.4</scala.version>
         <spark.version>1.5.0-cdh5.6.1</spark.version>
         <hadoop.version>2.6.0</hadoop.version>
-        <scope.flag>provided</scope.flag>
+        <!--<scope.flag>provided</scope.flag>-->
+        <scope.flag>compile</scope.flag>
     </properties>
 
     <repositories>
