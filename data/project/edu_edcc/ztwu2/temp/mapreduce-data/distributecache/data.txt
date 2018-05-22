@@ -1,1 +1,3 @@
-distributecache-test
+13,区县1
+23,区县2
+33,区县3

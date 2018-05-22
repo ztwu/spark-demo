@@ -37,4 +37,18 @@ object ReadUtil {
     return dataFrame
   }
 
+  def readBroadcast(sc:SparkContext) : DataFrame = {
+    val sqlContext = new SQLContext(sc)
+    import sqlContext.implicits._
+    val rdd = sc.textFile(Conf.cacheFilePath)
+    val dataFrame = rdd.map(x=>{
+      val temp = x.split(",")
+      val districtId = temp(0).toString
+      val districtName = temp(1).toString
+      (districtId,districtName)
+    }).toDF("district_id","district_name")
+    dataFrame.show()
+    return dataFrame
+  }
+
 }

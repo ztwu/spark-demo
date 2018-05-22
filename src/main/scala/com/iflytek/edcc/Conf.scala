@@ -16,4 +16,7 @@ object Conf {
   //输出主路径
   val outputpath = "data/project/edu_edcc/ztwu2/temp/mapreduce-result";
 
+  //检查点
+  val checkpointDir = "data/project/edu_edcc/ztwu2/temp/checkpointdir";
+
 }
