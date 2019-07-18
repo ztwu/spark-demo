@@ -23,8 +23,8 @@
 
         <repository>
             <id>com</id>
-            <name>iflytek</name>
-            <url>http://maven.iflytek.com:8081/nexus/content/groups/public/</url>
+            <name>cloudera</name>
+            <url>https://repository.cloudera.com/artifactory/cloudera-repos/</url>
         </repository>
 
         <repository>
